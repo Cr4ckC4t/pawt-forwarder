@@ -16,6 +16,6 @@ A very basic port forwarder written in C.
 gcc pawt-forwarder.c -Wall
 ```
 
-**Connect to Server**
+**Connect to server:**
 
 All incoming data on the server will be fowarded directly to the target. Vice versa, all data originating from the target port will be sent back via the server. The server detects a normal EOF and closes the corresponding sockets but clients may fail to receive an error when a connection (attempt) failed. The server could easily be extended by more explicit behavior in failure cases should someone need it.
