@@ -1,6 +1,6 @@
 # Pawt Forwarder
 
-A very basic port forwarder for written in C.
+A very basic port forwarder written in C.
 
 ## Usage
 
